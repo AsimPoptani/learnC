@@ -1,0 +1,13 @@
+{
+  "name": "learnC",
+  "version": "1.0.0",
+  "description": "Learn C",
+  "scripts": {
+    "build":"gcc main.c –o main",
+    "run" : "./main"
+  },
+  "main": " ",
+  "repository": "git@github.com:AsimPoptani/learnC.git",
+  "author": "Asim Poptani <asim@poptani.com>",
+  "license": "MIT"
+}
