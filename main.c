@@ -2,6 +2,7 @@
 // This allows us to do cool things like printing 
 #include <stdio.h>
 // Define some cool constants
+// see more about preprocessor directives https://developerinsider.co/preprocessor-directives-c-programming/
 #define PI 3.1415
 float pi;
 #if 4<3

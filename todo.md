@@ -9,7 +9,7 @@
 - [ ] goto
 - [ ] while
 - [x] for
-- [ ] Preprocessors - Define, If , pragma , line etc...
+- [x] Preprocessors - Define, If , pragma , line etc...
 - [ ] Custom headers
 - [ ] file handling
 - [ ] Storage classes
