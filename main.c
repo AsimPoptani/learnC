@@ -72,17 +72,25 @@ int main() {
     if (1==1)
     {
         printf("We are in this universe\n");
-    }   
+    };   
 
     // Use else and else if as normal
 
     // A for loop
-    for (int i=0; i<100;i++)
+    for (int index=0; index<10;index++)
     {
-        printf("Counting to 100/%d\n",i);
-    }
+        printf("Counting to 100 of %d \n",(int) index+1);  
+    };
 
+    // Size of the array get the size of the array and divide by the size of the size of an element
+    printf("Size of array %d \n",(int)(sizeof(socialGroup.humans)/sizeof(socialGroup.humans[0])));
+
+    // Iterate over humans
+    for (int index=0; index<(sizeof(socialGroup.humans)/sizeof(socialGroup.humans[0]));index++){
+        printf("Human %s has the describtion: %s\n", socialGroup.humans[index].name,socialGroup.humans[index].des);
+    };
     // See above for discussion
+    // Tl;dr 0 is normal and anything else can do anything else
     return 0;
 }
 
