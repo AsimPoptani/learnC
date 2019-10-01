@@ -13,6 +13,7 @@
 - [ ] Custom headers
 - [ ] file handling
 - [ ] Storage classes
+- [ ] inputs
 
 ## Extra ?
 - [ ] C99
