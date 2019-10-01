@@ -1,6 +1,14 @@
 // This is a lib called standard input output 
 // This allows us to do cool things like printing 
 #include <stdio.h>
+// Define some cool constants
+#define PI 3.1415
+float pi;
+#if 4<3
+pi=PI
+#endif
+
+
 // -------------- header ------------
 // Funtion declare
 int divideByX( int , int );
