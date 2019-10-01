@@ -19,15 +19,15 @@ int main() {
     // Int
     int aInt= 100;
     // This is typically 8 bits so you can assign letters to it
-    char aCoolChar = "a"  
+    char aCoolChar = "a";  
     // A very big number
-    long aLong= 12728934782937402
+    long aLong= 12728934782937402;
     // If you start using this you are doing something mad
-    long long aLongLong = 4382473785673486587346578346589473
+    long long aLongLong = 4382473785673486587346578346589473;
     // A fractional num (are you a tau or pi?)
-    float aFloat = 6.28318530718
+    float aFloat = 6.28318530718;
     // a fractional num with double accuracy
-    double aDouble = 1.2345678901234567890
+    double aDouble = 1.2345678901234567890;
     
     
     
