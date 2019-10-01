@@ -67,7 +67,21 @@ int main() {
     struct People socialGroup;
     // Assign a user
     socialGroup.humans[0]=dave;
-    
+
+    // If 1 ==1 then we are in this universe
+    if (1==1)
+    {
+        printf("We are in this universe\n");
+    }   
+
+    // Use else and else if as normal
+
+    // A for loop
+    for (int i=0; i<100;i++)
+    {
+        printf("Counting to 100/%d\n",i);
+    }
+
     // See above for discussion
     return 0;
 }
