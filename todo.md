@@ -1,6 +1,6 @@
 # Todo
 - [x] Functions
-- [ ] Structs
+- [x] Structs
 - [ ] Boolean
 - [ ] arrays
 - [ ] Pointers
