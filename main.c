@@ -102,9 +102,20 @@ int main() {
     };
 
     // is 10 bigger than 0?
-    printf("Is 10 bigger than 0 %s",isBiggerThan0(10) ? "Yep" : "Nope");
+    printf("Is 10 bigger than 0 %s \n",isBiggerThan0(10) ? "Yep" : "Nope");
     // See above for discussion
     // Tl;dr 0 is normal and anything else can do anything else
+    switch (10)
+    {
+    case 1:
+        printf("Lilians universe");
+        break;
+    case 10:
+        printf("My enviroment");
+    
+    default:
+        break;
+    }
     return 0;
 }
 

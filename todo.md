@@ -5,7 +5,7 @@
 - [x] arrays
 - [ ] Pointers
 - [ ] Type casting
-- [ ] Switch 
+- [x] Switch 
 - [ ] goto
 - [ ] while
 - [x] for
