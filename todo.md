@@ -12,7 +12,7 @@
 - [ ] Preprocessors - Define, If , pragma , line etc...
 - [ ] Custom headers
 - [ ] file handling
+- [ ] Storage classes
 
 ## Extra ?
-- [ ] Storage classes
 - [ ] C99
