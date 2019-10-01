@@ -2,13 +2,13 @@
 - [x] Functions
 - [x] Structs
 - [ ] Boolean
-- [ ] arrays
+- [x] arrays
 - [ ] Pointers
 - [ ] Type casting
 - [ ] Switch 
 - [ ] goto
 - [ ] while
-- [ ] for
+- [x] for
 - [ ] Preprocessors - Define, If , pragma , line etc...
 - [ ] Custom headers
 - [ ] file handling
