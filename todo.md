@@ -1,11 +1,11 @@
 # Todo
-- [ ] Functions
+- [x] Functions
 - [ ] Structs
 - [ ] Boolean
 - [ ] arrays
 - [ ] Pointers
 - [ ] Type casting
-- [ ] switch 
+- [ ] Switch 
 - [ ] goto
 - [ ] while
 - [ ] for
