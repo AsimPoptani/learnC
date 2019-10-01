@@ -1,7 +1,7 @@
 # Todo
 - [x] Functions
 - [x] Structs
-- [ ] Boolean
+- [x] Boolean
 - [x] arrays
 - [ ] Pointers
 - [ ] Type casting

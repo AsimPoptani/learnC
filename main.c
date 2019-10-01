@@ -1,6 +1,8 @@
 // This is a lib called standard input output 
 // This allows us to do cool things like printing 
 #include <stdio.h>
+// This is a boolean lib so we can bool types like true and false
+#include <stdbool.h> 
 // Define some cool constants
 // see more about preprocessor directives https://developerinsider.co/preprocessor-directives-c-programming/
 #define PI 3.1415
@@ -13,7 +15,7 @@ pi=PI
 // -------------- header ------------
 // Funtion declare
 int divideByX( int , int );
-
+bool isBiggerThan0(int);
 // Structs should be defined in a header file but for now we will put it here
 
     // Lets go ahead and create some structs
@@ -98,6 +100,9 @@ int main() {
     for (int index=0; index<(sizeof(socialGroup.humans)/sizeof(socialGroup.humans[0]));index++){
         printf("Human %s has the describtion: %s\n", socialGroup.humans[index].name,socialGroup.humans[index].des);
     };
+
+    // is 10 bigger than 0?
+    printf("Is 10 bigger than 0 %s",isBiggerThan0(10) ? "Yep" : "Nope");
     // See above for discussion
     // Tl;dr 0 is normal and anything else can do anything else
     return 0;
@@ -113,4 +118,13 @@ int timesByX(int a , int b){
 
 int divideByX(int a, int b){
     return (int) a/b;
+}
+bool isBiggerThan0 (int a){
+    if (a>0)
+    {
+        return true;
+    }
+    else{
+        return false;
+    }
 }
