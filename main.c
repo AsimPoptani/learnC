@@ -116,6 +116,23 @@ int main() {
     default:
         break;
     }
+
+    
+    // Get some input
+    // There are a few ways of doing this there are
+    // scanf,getchar, gets and fgets
+    // getChat gets a character
+    getchar();
+    // scanf takes in a string and that what it attempts to read you need to give it addresses
+    char text1[100];
+    int input;
+    char text2[100];
+    scanf("%s %d %s",text1,&input,text2 );
+    // fgets is safe it takes in how long an array is to stop buffer overflow
+    fgets(text1,100,stdin);
+    // gets is not safe
+    gets(text1);
+
     return 0;
 }
 
