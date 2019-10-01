@@ -1,11 +1,26 @@
 // This is a lib called standard input output 
 // This allows us to do cool things like printing 
 #include <stdio.h>
-
+// -------------- header ------------
 // Funtion declare
 int divideByX( int , int );
 
+// Structs should be defined in a header file but for now we will put it here
 
+    // Lets go ahead and create some structs
+    struct Human
+    {
+        char name[50];
+        char des[200];
+        
+    };
+    
+    struct People
+    {
+        struct Human humans[100];
+    }; 
+
+// -------------- header ------------
 
 // I apologize to Max Loyd for saying this should be void
 // I was wrong you should never have this as void
@@ -45,8 +60,13 @@ int main() {
     float aFloat = 6.28318530718;
     // a fractional num with double accuracy
     double aDouble = 1.2345678901234567890;
-    
-    
+
+    // Create a user called dave
+    struct Human dave ={"Dave","Dave is ambitious but he has a problem he is Dave"};
+    // Create a social group
+    struct People socialGroup;
+    // Assign a user
+    socialGroup.humans[0]=dave;
     
     // See above for discussion
     return 0;
